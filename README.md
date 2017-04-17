@@ -1,16 +1,24 @@
-=== Simple Save Redirect Button ===
-Contributors: longly10
-Author: Yilong Li
-Tags: publish button, save button, save and return, save and new, return list, previous post, next post, scroll list, list page highlight
-Requires at least: 3.5.1
-Tested up to: 4.7.3
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+**@Wordpress Plugin**
+## Simple Save Redirect Button
+**Contributors:** longly10
+
+**Author:** Yilong Li
+
+**Tags:** publish button, save button, save and return, save and new, return list, previous post, next post, scroll list, list page highlight
+
+**Requires at least:** 3.5.1
+
+**Tested up to:** 4.7.3
+
+**Stable tag:** 1.0.0
+
+**License:** GPLv2 or later
+
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+
+#### Description
 
 A new "Save" button which is enhanced post's standard "Save" button. It saves post and execute next action: Next/Previous Post, Next/Previous Page, Posts list page, scroll and highlight last edited post, etc.  Saves a lot of clicks and time if you have a lot of posts.
-
-== Description ==
 
 * **Save and New**: saved current post and go to New Post.
 * **Save and List** saved current post and go to Posts List page.
