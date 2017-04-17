@@ -1,0 +1,79 @@
+@import "compass/css3";
+
+#ssrb-container{
+	position: relative;
+
+	.ssrb-main-button{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.ssrb-dropdown-button{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		line-height: 3;
+		padding-left: 8px;
+		padding-right: 8px;
+
+		&::before{
+			content: "\f140";
+			display: inline-block;
+    		font: 400 18px/1 dashicons;
+		}
+	}
+
+	ul.ssrb-dropdown-menu{
+		display: none;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		border: 1px solid #eee;
+		z-index: 1;
+		background-color: #fff;
+		@include box-shadow(0 1px 1px rgba(0,0,0,.4));
+		text-align: left;
+		margin: 3px 0 0;
+		min-width: 100%;
+
+		&.on{
+			display: block;
+		}
+
+		li{
+			cursor: pointer;
+			margin: 0;
+			padding: 5px 15px;
+
+			&.disabled {
+				opacity: 0.5;
+				cursor: default;
+
+				&:hover {
+					color: inherit;
+					background-color: transparent;
+				}
+			}
+
+			&:hover {
+				color: white;
+				background-color: #1e8cbe;
+			}
+		}
+	}
+}
+
+.scroll-highlight{
+	@include animation(highlight .4s linear .5s);
+}
+
+@include keyframes(highlight){
+	0% {
+		background-color: none
+	}
+	50% {
+		background-color: #ddd;
+	}
+	100% {
+		background-color: none;
+	}
+}

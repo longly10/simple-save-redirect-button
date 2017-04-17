@@ -1,0 +1,105 @@
+/* line 3, ../sass/style.scss */
+#ssrb-container {
+  position: relative;
+}
+/* line 6, ../sass/style.scss */
+#ssrb-container .ssrb-main-button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 11, ../sass/style.scss */
+#ssrb-container .ssrb-dropdown-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  line-height: 3;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* line 18, ../sass/style.scss */
+#ssrb-container .ssrb-dropdown-button::before {
+  content: "\f140";
+  display: inline-block;
+  font: 400 18px/1 dashicons;
+}
+/* line 25, ../sass/style.scss */
+#ssrb-container ul.ssrb-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border: 1px solid #eee;
+  z-index: 1;
+  background-color: #fff;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  margin: 3px 0 0;
+  min-width: 100%;
+}
+/* line 38, ../sass/style.scss */
+#ssrb-container ul.ssrb-dropdown-menu.on {
+  display: block;
+}
+/* line 42, ../sass/style.scss */
+#ssrb-container ul.ssrb-dropdown-menu li {
+  cursor: pointer;
+  margin: 0;
+  padding: 5px 15px;
+}
+/* line 47, ../sass/style.scss */
+#ssrb-container ul.ssrb-dropdown-menu li.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 51, ../sass/style.scss */
+#ssrb-container ul.ssrb-dropdown-menu li.disabled:hover {
+  color: inherit;
+  background-color: transparent;
+}
+/* line 57, ../sass/style.scss */
+#ssrb-container ul.ssrb-dropdown-menu li:hover {
+  color: white;
+  background-color: #1e8cbe;
+}
+
+/* line 65, ../sass/style.scss */
+.scroll-highlight {
+  -moz-animation: highlight 0.4s linear 0.5s;
+  -webkit-animation: highlight 0.4s linear 0.5s;
+  animation: highlight 0.4s linear 0.5s;
+}
+
+@-moz-keyframes highlight {
+  0% {
+    background-color: none;
+  }
+  50% {
+    background-color: #ddd;
+  }
+  100% {
+    background-color: none;
+  }
+}
+@-webkit-keyframes highlight {
+  0% {
+    background-color: none;
+  }
+  50% {
+    background-color: #ddd;
+  }
+  100% {
+    background-color: none;
+  }
+}
+@keyframes highlight {
+  0% {
+    background-color: none;
+  }
+  50% {
+    background-color: #ddd;
+  }
+  100% {
+    background-color: none;
+  }
+}
