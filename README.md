@@ -1,6 +1,7 @@
 **@Wordpress Plugin**
 ## Simple Save Redirect Button
 **Contributors:** longly10
+https://wordpress.org/plugins/simple-save-redirect-button/
 
 **Author:** Yilong Li
 
